@@ -1,0 +1,12 @@
+@mixin  sexyTitle {
+    color: blue;
+    font-size:  30px;
+    margin-bottom: 12px;
+
+}
+
+@mixin link($color) {
+    text-decoration: none;
+    display: block;
+    color: $color;
+}
